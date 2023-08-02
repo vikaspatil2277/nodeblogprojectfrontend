@@ -1,0 +1,85 @@
+.right{
+    width: 450px;
+    height: auto;
+    border: 1px ;
+    margin-left: 33%;
+    border: 2px solid black;
+}
+.detailsImg{
+    width: 445px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.detailsHead{
+    margin-bottom: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profileimg{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 30px 20px 30px 0px ;
+}
+.icons{
+    margin-left: 70px;
+}
+.icon{
+    margin-left: 5px;
+}
+.likeicon{
+    height: 30px;
+    width: 30px;
+}
+.like{
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+}
+.like h4{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.Writter{
+    display: flex;
+    
+}
+.Writter img{
+    margin-top: 10px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+}
+.detailDesc{
+    height: 300px;
+    width: 300px;
+}
+.detailDesc img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.detailDesc .profileimg{
+    height: 70px ;
+    width: 70px;
+}
+.totalfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.shareIcon{
+    height: 30px;
+    width: 30px;
+    margin-left: 200px;
+}
+
+.backbtn{
+    width: 60px;
+    
+    border-radius: 10px;
+    background-color: rgb(70, 228, 70);
+margin-left: 45%;
+}
