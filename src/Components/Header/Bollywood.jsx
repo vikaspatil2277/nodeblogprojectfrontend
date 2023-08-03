@@ -51,7 +51,7 @@ function Bollywood() {
           }
         </div>
         <div className="advertisment">
-          <h4>Advertisement</h4>
+          <h4 className='adtext'>Advertisement</h4>
         </div>
       </section>
     </div>

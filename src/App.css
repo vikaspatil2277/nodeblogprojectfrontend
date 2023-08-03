@@ -318,22 +318,15 @@ a{
   }
   .p1 .Main .bollyS2 .advertisment {
     height: 500px;
-    width: 340px;
+    width: 300px;
     border: 1px solid;
     margin-bottom: 20px;
   }
  
 
  
-  .footer{
   
-    height: 200px;
-    
-  }
 
-  .header-content{
-    margin: 45px;
-  }
  
 hr{
   margin-top:70px ;
@@ -344,6 +337,122 @@ hr{
   
 
 }
+
+
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+  
+  .label {
+    display: initial;
+    margin-left:px;
+    margin-top: -30px;
+  }
+  .links {
+
+    width:1200px;
+
+    
+    
+  }
+
+  .label svg{
+    display: none;
+  }
+
+
+  .mainblog{
+    display: flex;
+    width: 1200px;
+  }
+
+  
+
+  
+  .blog1{
+flex-direction: column;
+  
+  }
+
+  .blog1 img{
+  width: 200px;
+height: 210px;
+  }
+
+  .blog2 img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+
+  .blog3 img{
+    width: 375px;
+    height: 100px;
+  }
+
+  
+  .mainblog2{
+    display: flex;
+  
+  }
+  .blog2{
+  display: flex;
+  flex-direction:column;
+ 
+  margin: 10px;
+  }
+
+  .blog{
+    width: 1200px;
+  }
+
+  .section3{
+    width: 1200px;
+  }
+  .p1{
+    margin-top: 50px;
+  }
+
+  .footer{
+    margin-top: 120px;
+    width: 1200px;
+    height: 150px;
+  }
+  .p1 .Main .bollyS2 .advertisment {
+    height: 500px;
+    width: 400px;
+    border: 1px solid;
+    margin-bottom: 20px;
+  }
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+hr{
+  margin-top:70px ;
+  height: 5px;
+  color: black;
+}
+  
+  
+
+  
+  
+} 
 
 
 
