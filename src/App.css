@@ -3,17 +3,16 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body {
   font-family: "Poppins", sans-serif;
 }
 
-.homecontainer{
+.homecontainer {
   display: flex;
+  justify-content: center;
 }
-
-
 
 h3 {
   position: relative;
@@ -47,14 +46,12 @@ p {
   margin-top: 10px;
   height: 80px;
 
-  background-color:orange;
+  background-color: orange;
 }
 
-.NavLink{
+.NavLink {
   margin-top: 25px;
 }
-
-
 
 #menu-bar {
   display: none;
@@ -65,34 +62,32 @@ p {
   display: none;
 }
 
-.footer{
+.footer {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   height: 100px;
-  width:100%;
+  width: 100%;
   align-content: center;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   margin-top: 20px;
-
 }
 
-.mail{
-  color:black;
+.mail {
+  color: black;
   font-size: 15px;
 }
 
-.header-content{
+.header-content {
   margin-top: 45px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.active{
+.active {
   box-shadow: 0 5px 3px #89e70f;
   font-size: 30px;
-
 }
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
@@ -109,17 +104,11 @@ a{
   .NavLink {
     background-color: rgb(244, 241, 235);
     margin-top: px;
-    margin-bottom:px;
+    margin-bottom: px;
     text-align: center;
     padding-top: 2px;
     font-size: 22px;
   }
-
-
-
-
-
-
 
   #menu-bar:checked ~ .links {
     display: flex;
@@ -133,7 +122,7 @@ a{
     top: 80px;
     left: 50px;
   }
-  
+
   .App p {
     position: relative;
     top: 0px;
@@ -142,9 +131,9 @@ a{
   .category .overlay p {
     visibility: hidden;
   }
-  .latestblog{
-  margin-top:-300px;
-}
+  .latestblog {
+    margin-top: -300px;
+  }
   .blog .grid3 {
     margin: 10px 0;
     display: grid;
@@ -191,7 +180,9 @@ a{
     margin: 20px 5px 30px 14px;
     height: 750px;
     width: 335px;
+    
   }
+ 
   .articles .randomImage img {
     margin-left: 14px;
     height: 300px;
@@ -297,7 +288,7 @@ a{
     margin-right: 5px;
   }
 
-  .singlePost{
+  .singlePost {
     margin-top: 250px;
   }
   .p1 .Main .bollyS2 .latest2 {
@@ -322,101 +313,89 @@ a{
     border: 1px solid;
     margin-bottom: 20px;
   }
- 
 
- 
-  
-
- 
-hr{
-  margin-top:70px ;
-  height: 5px;
-  color: black;
-}
-  
-  
-
+  hr {
+    margin-top: 70px;
+    height: 5px;
+    color: black;
+  }
 }
 
+@media screen and (min-width: 700px) and (max-width: 1100px){
+  .App{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 
-
-@media screen and (min-width: 700px) and (max-width: 1023px) {
   
+  .main-page{
+    display: flex;
+    flex-direction: column;
+     margin: 1%; 
+     width: 100%; 
+    align-items: center;
+  }
   .label {
     display: initial;
-    margin-left:px;
+    margin-left: px;
     margin-top: -30px;
   }
   .links {
-
-    width:1200px;
-
-    
-    
+    width: 1100px;
   }
 
-  .label svg{
+  .label svg {
     display: none;
   }
 
-
-  .mainblog{
+  .mainblog {
     display: flex;
-    width: 1200px;
+    width: 1100px;
   }
 
-  
-
-  
-  .blog1{
-flex-direction: column;
-  
+  .blog1 {
+    flex-direction: column;
   }
 
-  .blog1 img{
-  width: 200px;
-height: 210px;
+  .blog1 img {
+    width: 200px;
+    height: 210px;
   }
 
-  .blog2 img{
+  .blog2 img {
     width: 100px;
     height: 100px;
     margin-right: 20px;
   }
 
-  .blog3 img{
+  .blog3 img {
     width: 375px;
     height: 100px;
   }
 
-  
-  .mainblog2{
+  .mainblog2 {
     display: flex;
-  
   }
-  .blog2{
-  display: flex;
-  flex-direction:column;
- 
-  margin: 10px;
+  .blog2 {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
   }
 
-  .blog{
-    width: 1200px;
+  .blog {
+    width: 1100px;
   }
 
-  .section3{
-    width: 1200px;
+  .section3 {
+    width: 1100px;
   }
-  .p1{
+  .p1 {
     margin-top: 50px;
   }
 
-  .footer{
-    margin-top: 120px;
-    width: 1200px;
-    height: 150px;
-  }
+  
   .p1 .Main .bollyS2 .advertisment {
     height: 500px;
     width: 400px;
@@ -424,35 +403,30 @@ height: 210px;
     margin-bottom: 20px;
   }
 
+ 
+  hr {
+    margin-top: 70px;
+    height: 5px;
+    color: black;
+  }
 
+  .advertisement{
+    margin: 10px 5px 0px 40px;
+    height: 750px;
+    width: 375px;
+    border: 1px solid;
+  }
+
+
+  .footer {
+    margin-top: 120px;
+    width: 1100px;
+    height: 150px;
+  }
   
 
 
-  
-
-
-
-
-
-
-
-
-
-
+ 
  
 
- 
-hr{
-  margin-top:70px ;
-  height: 5px;
-  color: black;
 }
-  
-  
-
-  
-  
-} 
-
-
-

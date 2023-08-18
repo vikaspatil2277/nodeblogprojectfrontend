@@ -227,9 +227,9 @@ margin: 10px;
   background: none;
 }
 .advertisement {
-  margin: 10px 5px 0px 70px;
+  margin: 10px 5px 0px 40px;
   height: 750px;
-  width: 430px;
+  width: 375px;
   border: 1px solid;
 }
 .ad {
@@ -248,7 +248,8 @@ margin: 10px;
 .topPosts {
   position: relative;
   top: -350px;
-  margin-left: 100px;
+  margin-left: 50px;
+  width: 60%;
 }
 .topPosts img {
   height: 185px;
@@ -306,7 +307,7 @@ margin: 10px;
 }
 .section1 {
   margin-top: 80px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .allPosts {
   height: auto;
@@ -336,7 +337,7 @@ margin: 10px;
 }
 .bollyS2 {
   margin-top: 80px;
-  margin-left: 120px;
+  margin-left: 70px;
 }
 .natureImg {
   height: 185px;
@@ -367,7 +368,7 @@ margin: 10px;
 }
 .advertisment {
   height: 450px;
-  width: 500px;
+  width: 380px;
   border: 1px solid;
   margin-bottom: 20px;
   
@@ -445,3 +446,4 @@ height: 210px;
     margin-top: 50px;
   }
 }
+

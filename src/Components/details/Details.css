@@ -1,183 +1,179 @@
-.right{
-    width: 700px;
-    height: auto;
-    border: 1px ;
-    margin-left: 28%;
-    border: 2px solid black;
-    margin-top: 50px;
+.right {
+  width: 700px;
+  height: auto;
+  border: 1px;
+  margin-left: 20%;
+  border: 2px solid black;
+  margin-top: 50px;
 }
-.detailsImg{
-    width: 675px;
+.detailsImg {
+  width: 675px;
+  height: 250px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+.detailsHead {
+  margin-bottom: 20px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profileimg {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 30px 20px 30px 0px;
+}
+.icons {
+  margin-left: 300px;
+}
+.icon {
+  margin-left: 5px;
+}
+.likeicon {
+  height: 30px;
+  width: 30px;
+}
+.like {
+  display: flex;
+  margin: 30px 0px;
+  align-items: center;
+}
+.like h4 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.Writter {
+  display: flex;
+}
+.Writter img {
+  margin-top: 10px;
+}
+.footer2 {
+  display: flex;
+  align-items: center;
+}
+.detailDesc {
+  height: 300px;
+  width: 300px;
+}
+.detailDesc img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.detailDesc .profileimg {
+  height: 70px;
+  width: 70px;
+}
+.totalfooter {
+  display: flex;
+  justify-content: space-between;
+}
+.shareIcon {
+  height: 30px;
+  width: 30px;
+  margin-left: 400px;
+}
+
+.backbtn {
+  width: 60px;
+
+  border-radius: 10px;
+  background-color: rgb(70, 228, 70);
+  margin-left: 45%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px){
+  .singlePost {
+    margin-top: 250px;
+  }
+
+  .singlePost .container {
+    margin-top: 100px;
+   
+  }
+
+  .right {
+    width: 650px;
+    /* margin-left:100px; */
+    margin-bottom: 160px;
+  }
+
+  .detailsImg {
+    width: 640px;
     height: 250px;
     margin-bottom: 50px;
-    margin-left: 10px;
-}
-.detailsHead{
+  }
+  .detailsHead {
     margin-bottom: 20px;
-}
-.profile{
+  }
+  .profile {
     display: flex;
     align-items: center;
-}
-.profileimg{
+  }
+  .profileimg {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    margin: 30px 20px 30px 0px ;
-}
-.icons{
+    margin: 30px 20px 30px 0px;
+  }
+  .icons {
     margin-left: 300px;
-}
-.icon{
+  }
+  .icon {
     margin-left: 5px;
-}
-.likeicon{
+  }
+  .likeicon {
     height: 30px;
     width: 30px;
-}
-.like{
+  }
+  .like {
     display: flex;
     margin: 30px 0px;
     align-items: center;
-}
-.like h4{
+  }
+  .like h4 {
     font-size: 18px;
     margin-left: 10px;
-}
-.Writter{
+  }
+  .Writter {
     display: flex;
-    
-}
-.Writter img{
+  }
+  .Writter img {
     margin-top: 10px;
-}
-.footer2{
+  }
+  .footer2 {
     display: flex;
     align-items: center;
-}
-.detailDesc{
+  }
+  .detailDesc {
     height: 300px;
     width: 300px;
-}
-.detailDesc img{
+  }
+  .detailDesc img {
     height: 200px;
     width: 300px;
     margin-bottom: 20px;
-}
-.detailDesc .profileimg{
-    height: 70px ;
+  }
+  .detailDesc .profileimg {
+    height: 70px;
     width: 70px;
-}
-.totalfooter{
+  }
+  .totalfooter {
     display: flex;
     justify-content: space-between;
-}
-.shareIcon{
+  }
+  .shareIcon {
     height: 30px;
     width: 30px;
-    margin-left: 400px;
-}
+    margin-left: 300px;
+  }
 
-.backbtn{
-    width: 60px;
-    
-    border-radius: 10px;
-    background-color: rgb(70, 228, 70);
-margin-left: 45%;
-}
-
-@media screen and (min-width: 700px) and (max-width: 1023px) {
-    .singlePost{
-        margin-top: 250px;
-
-      }
-    
-      .singlePost .container  {
-        margin-top:100px;
-       
-      }
-    
-      .right{
-    
-        width:650px;
-        margin-bottom: 160px;
-    
-      }
-
-
-      .detailsImg{
-        width: 640px;
-        height: 250px;
-        margin-bottom: 50px;
-    }
-    .detailsHead{
-        margin-bottom: 20px;
-    }
-    .profile{
-        display: flex;
-        align-items: center;
-    }
-    .profileimg{
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        margin: 30px 20px 30px 0px ;
-    }
-    .icons{
-        margin-left: 300px;
-    }
-    .icon{
-        margin-left: 5px;
-    }
-    .likeicon{
-        height: 30px;
-        width: 30px;
-    }
-    .like{
-        display: flex;
-        margin: 30px 0px;
-        align-items: center;
-    }
-    .like h4{
-        font-size: 18px;
-        margin-left: 10px;
-    }
-    .Writter{
-        display: flex;
-        
-    }
-    .Writter img{
-        margin-top: 10px;
-    }
-    .footer2{
-        display: flex;
-        align-items: center;
-    }
-    .detailDesc{
-        height: 300px;
-        width: 300px;
-    }
-    .detailDesc img{
-        height: 200px;
-        width: 300px;
-        margin-bottom: 20px;
-    }
-    .detailDesc .profileimg{
-        height: 70px ;
-        width: 70px;
-    }
-    .totalfooter{
-        display: flex;
-        justify-content: space-between;
-    }
-    .shareIcon{
-        height: 30px;
-        width: 30px;
-        margin-left: 300px;
-    }
-
-    .footer{
-        margin-top: 10px;
-        height: 180px;
-    }
+  .footer {
+    margin-top: 10px;
+    height: 180px;
+   
+  }
 }
