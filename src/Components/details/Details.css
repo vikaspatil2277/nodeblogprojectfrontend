@@ -2,7 +2,7 @@
   width: 700px;
   height: auto;
   border: 1px;
-  
+
   margin-left: 20%;
   border: 2px solid black;
   margin-top: 50px;
@@ -54,23 +54,25 @@
 .footer2 {
   display: flex;
   align-items: center;
+  
 }
 .detailDesc {
-  height: 300px;
+  height: 400px;
   width: 300px;
 }
 .detailDesc img {
-  height: 200px;
+  height: 180px;
   width: 300px;
   margin-bottom: 20px;
 }
 .detailDesc .profileimg {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
 }
 .totalfooter {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .shareIcon {
   height: 30px;
@@ -85,7 +87,10 @@
   background-color: rgb(70, 228, 70);
   margin-left: 45%;
 }
-
+.footer{
+  margin-top:20px;
+  height: 50px;
+}
 @media screen and (min-width: 700px) and (max-width: 1100px){
   .singlePost {
     margin-top: 250px;
@@ -148,6 +153,7 @@
   .footer2 {
     display: flex;
     align-items: center;
+  
   }
   .detailDesc {
     height: 300px;

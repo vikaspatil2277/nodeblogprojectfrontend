@@ -408,7 +408,7 @@ margin: 10px;
     background-color: orange;
     margin-left: 30px;
     margin-right: 30px;
-    
+
   }
 
   
@@ -446,6 +446,10 @@ height: 210px;
 
   .p1{
     margin-top: 50px;
+  }
+
+  .footer{
+    height: 114px;
   }
 }
 

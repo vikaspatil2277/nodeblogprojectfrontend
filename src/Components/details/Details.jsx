@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
+
 function Details() {
 
   const value = useLocation().state
@@ -46,7 +47,6 @@ function Details() {
               </div>
 
             </div>
-            
             <img src={value.item.cover} alt="" className='detailsImg' />
             <h5 className='detailsDesc'>{value.item.desc}</h5>
             <div className='like'>
