@@ -33,6 +33,7 @@ function Fitness() {
       </section>
       <section className='bollyS2'>
         <h4 > Top Posts</h4>
+        
         <div className='head'></div>
         <img src="https://i.pinimg.com/originals/6e/1c/a6/6e1ca65507cb0293801a8e9a87790a3d.jpg" alt="" className='natureImg' />
         <div className="allTopPosts">

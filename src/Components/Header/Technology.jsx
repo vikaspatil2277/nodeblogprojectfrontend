@@ -16,6 +16,7 @@ function Technology() {
       <div className='Main'>
         <section className='section1'>
           <h4> Technology</h4>
+          
           <div className='head'></div>
           <div className="allPosts">
             {data.filter((e) => { return e.class === "technology1" }).map((item, index) => (

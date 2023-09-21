@@ -168,6 +168,7 @@ const HomeCard = () => {
                 src="https://www.freewalldownload.com/lake-wallpaper/lake-attractive-rivers-wallpaper-free-download.jpg"
                 alt=""
               />
+              
             </div>
             <div className="topPosts">
               <h4> Top Posts</h4>

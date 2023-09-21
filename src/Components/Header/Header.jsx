@@ -83,6 +83,7 @@ function Header() {
           Food
         </NavLink>
       </div>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bollywood" element={<Bollywood />} />

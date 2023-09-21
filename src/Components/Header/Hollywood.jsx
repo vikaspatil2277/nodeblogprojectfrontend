@@ -51,6 +51,7 @@ function Hollywood() {
         <div className="advertisment">
           <h4>Advertisement</h4>
         </div>
+        
       </section>
     </div>
     </div>
