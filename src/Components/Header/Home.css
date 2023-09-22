@@ -229,7 +229,7 @@ margin: 10px;
 .advertisement {
   margin-left:50px;
   height: 750px;
-  width: 450px;
+  width: 370px;
   border: 1px solid;
 }
 .adt {
@@ -366,16 +366,14 @@ margin: 10px;
   font-size: 9px;
   font-weight: 300;
 }
-.advertisment {
+
+.p1 .Main .advertisment {
   height: 450px;
-  width: 375px;
+  width: 350px;
   border: 1px solid;
+  margin-left: -350px;
+  margin-top: 1180px;
   margin-bottom: 20px;
-  
-}
-.advertisment{
-  margin-top: 50px;
-  margin-left: 50px;
 }
 .ad{
   margin-top:200px;
@@ -451,6 +449,13 @@ height: 210px;
   .p1{
     margin-top: 50px;
   }
+
+  .main{
+    display: flex;
+  }
+
+  
+  
 
   .footer{
     height: 114px;

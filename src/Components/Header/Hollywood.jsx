@@ -48,11 +48,12 @@ function Hollywood() {
           ))
           }
         </div>
-        <div className="advertisment">
-          <h4  className='ad'>Advertisement</h4>
-        </div>
+      
 
       </section>
+    <div className="advertisment">
+          <h4  className='ad'>Advertisement</h4>
+        </div>
     </div>
     </div>
   )
