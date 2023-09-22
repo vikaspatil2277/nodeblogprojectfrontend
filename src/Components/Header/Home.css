@@ -227,14 +227,14 @@ margin: 10px;
   background: none;
 }
 .advertisement {
-  margin: 10px 5px 0px 40px;
+  margin-left:50px;
   height: 750px;
-  width: 375px;
+  width: 500px;
   border: 1px solid;
 }
-.ad {
+.adt {
   margin-top: 350px;
-  margin-left: 10px;
+  margin-left: 100px;
 }
 .randomImage {
   height: 400px;

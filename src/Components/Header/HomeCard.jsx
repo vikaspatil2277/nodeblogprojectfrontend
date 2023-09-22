@@ -161,7 +161,7 @@ const HomeCard = () => {
               ))}
             </div>
             <div className="advertisement">
-              <h2 className="ad">Advertisement</h2>
+              <h2 className="adt">Advertisement</h2>
             </div>
             <div className="randomImage">
               <img
