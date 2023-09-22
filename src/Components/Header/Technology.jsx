@@ -16,7 +16,7 @@ function Technology() {
       <div className='Main'>
         <section className='section1'>
           <h4> Technology</h4>
-          
+
           <div className='head'></div>
           <div className="allPosts">
             {data.filter((e) => { return e.class === "technology1" }).map((item, index) => (
@@ -50,7 +50,7 @@ function Technology() {
             }
           </div>
           <div className="advertisment">
-            <h4>Advertisement</h4>
+            <h4  className='ad'> Advertisement</h4>
           </div>
         </section>
       </div>

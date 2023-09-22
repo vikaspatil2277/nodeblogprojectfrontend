@@ -50,10 +50,10 @@ function Food() {
         }
       </div>
       <div className="advertisment">
-        <h4>Advertisement</h4>
+        <h4  className='ad'>Advertisement</h4>
       </div>
     </section>
-    
+
     </div>
   </div>
   )
