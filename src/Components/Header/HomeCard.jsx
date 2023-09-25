@@ -42,7 +42,7 @@ const HomeCard = () => {
   }, []);
 
   return (
-    <div>
+    <div className="homeconatiner">
       <hr />
       <div className="mainblog">
         <section className="blog1">
@@ -186,6 +186,7 @@ const HomeCard = () => {
                     <Link to={`/details/${item.id}`} state={{ item }}>
                       <h2>{item.title}</h2>
                     </Link>
+                    <h6>{item.desc.slice(0, 180)}</h6>
                     <h6>
                       {item.category}/{item.date}
                     </h6>

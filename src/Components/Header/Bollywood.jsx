@@ -25,7 +25,7 @@ function Bollywood() {
               <Link to={`/details/${item.id}`} state={{ item }}><img src={item.cover} alt="" /></Link>
               <div>
                 <Link to={`/details/${item.id}`} state={{ item }}><h4>{item.title}</h4></Link>
-                <h6>{item.desc}</h6>
+                <h6>{item.desc.slice(0, 180)}</h6>
                 <h6>{item.category} / {item.date}</h6>
               </div>
             </div>
@@ -43,7 +43,7 @@ function Bollywood() {
               <Link to={`/details/${item.id}`} state={{ item }}><img src={item.cover} alt="" /></Link>
               <div>
                 <Link to={`/details/${item.id}`} state={{ item }}><h4>{item.title}</h4></Link>
-                <h6>{item.desc}</h6>
+                <h6>{item.desc.slice(0, 180)}</h6>
                 <h6>{item.category} / {item.date}</h6>
               </div>
             </div>

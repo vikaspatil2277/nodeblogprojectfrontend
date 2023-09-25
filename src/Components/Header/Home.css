@@ -87,29 +87,36 @@
 }
 
 /* the latest css */
+.homeconatiner{
+  width: 100%;
+}
 .blog {
   margin: 50px 0;
 }
 
 .mainblog{
   display: flex;
+  width: 100%;
 }
 
 .blog1{
   display:flex;
   flex-direction: row;
   height: 500px;
-  width: 700px;
+  width: 800px;
   margin: 10px;
 }
 .blog1 img{
-  height: 510px;
-  width: 550px;
+  height: 550px;
+  width: 80%;
+  margin-left: 10px;
 }
 
 .mainblog2{
   display: flex;
   flex-direction: column;
+  width: 50%;
+  margin-left: 0px;
 
 }
 .blog2{
@@ -119,14 +126,14 @@ margin: 10px;
 }
 
 .blog2 img{
-  height: 250px;
-  width: 375px;
+  height: 290px;
+  width: 90%;
   margin-left:-10px ;
 }
 
 .blog3 img{
   height: 250px;
-  width: 250x;
+  width: 87%;
 }
 
 /* img{
@@ -196,8 +203,8 @@ margin: 10px;
   height: 1700px;
 }
 .article {
-  width: 650px;
-  margin-left: 50px;
+  width: 90%;
+  margin-left: 30px;
   display: flex;
   padding: 10px;
   border-bottom: 1px solid;
@@ -220,36 +227,29 @@ margin: 10px;
   font-size: 12px;
   font-weight: 300;
 }
-.Load {
-  border: none;
-  margin-left: 70px;
-  margin-top: 20px;
-  background: none;
-}
+
 .advertisement {
-  margin-left:50px;
-  height: 750px;
-  width: 370px;
+  margin-left:80px;
+  height: 600px;
+  width: 70%;
   border: 1px solid;
 }
 .adt {
   margin-top: 350px;
   margin-left: 100px;
 }
-.randomImage {
-  height: 400px;
-}
+
 .randomImage img {
-  margin-left: 50px;
-  height: 350px;
-  width: 650px;
+  margin-left: 80px;
+  height: 450px;
+  width:600px;
   margin-top: 30px;
 }
 .topPosts {
   position: relative;
-  top: -350px;
+  top: -500px;
   margin-left: 50px;
-  width: 60%;
+  width: 80%;
 }
 .topPosts img {
   height: 185px;
@@ -259,16 +259,16 @@ margin: 10px;
 .topPost {
   display: flex;
   margin: 10px 0px;
-  width: 350px;
+  width:80%px;
   border-bottom: 1px solid;
-  padding: 5px 0px;
+  padding: 30px 0px;
 }
 .topPost:last-child {
   border-bottom: none;
 }
 .topPost img {
   height: 100px;
-  width: 150px;
+  width: 100px;
 }
 .topPost h2 {
   font-size: 16px;
@@ -303,15 +303,17 @@ margin: 10px;
 
 /* Bollywood css */
 .Main {
+  width: 100%;
   display: flex;
 }
 .section1 {
   margin-top: 80px;
   margin-left: 10px;
+  width: 50%;
 }
 .allPosts {
   height: auto;
-  width: 650px;
+  width: 80%;
 }
 .allPosts img {
   height: 200px;
@@ -321,8 +323,9 @@ margin: 10px;
 .latest1 {
   display: flex;
   margin: 30px 0px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   border-bottom: 1px solid;
+  width: 130%;
 }
 .latest1:last-child {
   border-bottom: none;
@@ -337,18 +340,25 @@ margin: 10px;
 }
 .bollyS2 {
   margin-top: 80px;
-  margin-left: 70px;
+  margin-left:100px;
+  width: 35%;
 }
 .natureImg {
-  height: 185px;
-  width: 316px;
+  height: 200px;
+  width: 70%;
+  margin-left: 100px;
+}
+
+.allTopPosts{
+  margin-left: 100px;
+  width: 80%;
 }
 .latest2 {
   display: flex;
   height: auto;
-  width: 400px;
+  width:100%;
   margin: 20px 0px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   border-bottom: 1px solid;
 }
 .latest2:last-child {
@@ -368,11 +378,11 @@ margin: 10px;
 }
 
 .p1 .Main .advertisment {
-  height: 450px;
-  width: 350px;
+  height: 600px;
+  width: 30%;
   border: 1px solid;
-  margin-left: -350px;
-  margin-top: 1180px;
+  margin-left: -400px;
+  margin-top:120%;
   margin-bottom: 20px;
 }
 .ad{
@@ -456,3 +466,22 @@ height: 210px;
   }
 }
 
+@media screen and (min-width: 700px) and (max-width: 1180px){
+
+
+
+.p1 .Main .advertisment {
+  margin-top: 100%;
+  height: 550px;
+  width: 350px;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+.bollyS2 {
+  margin-top: 80px;
+  margin-left:50px;
+  width: 40%;
+}
+
+}
