@@ -87,51 +87,50 @@
 }
 
 /* the latest css */
-.homeconatiner{
+.homeconatiner {
   width: 100%;
 }
 .blog {
   margin: 50px 0;
 }
 
-.mainblog{
+.mainblog {
   display: flex;
   width: 100%;
 }
 
-.blog1{
-  display:flex;
+.blog1 {
+  display: flex;
   flex-direction: row;
   height: 500px;
   width: 800px;
   margin: 10px;
 }
-.blog1 img{
+.blog1 img {
   height: 550px;
   width: 80%;
   margin-left: 10px;
 }
 
-.mainblog2{
+.mainblog2 {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin-left: 0px;
-
 }
-.blog2{
-display: flex;
-flex-direction: column;
-margin: 10px;
+.blog2 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
-.blog2 img{
+.blog2 img {
   height: 290px;
   width: 90%;
-  margin-left:-10px ;
+  margin-left: -10px;
 }
 
-.blog3 img{
+.blog3 img {
   height: 250px;
   width: 87%;
 }
@@ -155,7 +154,7 @@ margin: 10px;
   gap: 20px;
 }
 .blog img {
-  width:250px;
+  width: 250px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
@@ -229,7 +228,7 @@ margin: 10px;
 }
 
 .advertisement {
-  margin-left:80px;
+  margin-left: 80px;
   height: 600px;
   width: 70%;
   border: 1px solid;
@@ -242,7 +241,7 @@ margin: 10px;
 .randomImage img {
   margin-left: 80px;
   height: 450px;
-  width:600px;
+  width: 600px;
   margin-top: 30px;
 }
 .topPosts {
@@ -259,7 +258,7 @@ margin: 10px;
 .topPost {
   display: flex;
   margin: 10px 0px;
-  width:80%px;
+  width: 80%px;
   border-bottom: 1px solid;
   padding: 30px 0px;
 }
@@ -341,7 +340,7 @@ margin: 10px;
 }
 .bollyS2 {
   margin-top: 80px;
-  margin-left:100px;
+  margin-left: 100px;
   width: 35%;
 }
 .natureImg {
@@ -350,14 +349,14 @@ margin: 10px;
   margin-left: 100px;
 }
 
-.allTopPosts{
+.allTopPosts {
   margin-left: 100px;
   width: 80%;
 }
 .latest2 {
   display: flex;
   height: auto;
-  width:100%;
+  width: 100%;
   margin: 20px 0px;
   padding-bottom: 5px;
   border-bottom: 1px solid;
@@ -378,7 +377,7 @@ margin: 10px;
   font-weight: 300;
 }
 
- .Main .advertisment {
+.Main .advertisment {
   position: absolute;
   height: 600px;
   width: 30%;
@@ -390,103 +389,98 @@ margin: 10px;
   bottom: 10px;
   z-index: 4;
 }
-.ad{
-  margin-top:200px;
-  margin-left:100px;
+.ad {
+  margin-top: 200px;
+  margin-left: 100px;
 }
 
-
-
-
-
-#link{
+#link {
   text-decoration: none;
 }
 
-
-
 @media only screen and (min-width: 350px) and (max-width: 600px) {
-  .mainblog{
+  .Main .advertisment {
+    display: none;
+  }
+  .mainblog {
     display: flex;
-    margin-top:5px ;
+    margin-top: 5px;
   }
-
-  .links{
+.allTopPosts{
+  align-items: center;
+  margin-left: 50px;
+}
+  .links {
     margin-top: 52px;
-    background-color:white;
-
-
-    
+    background-color: white;
   }
-  a.NavLink{
-
+  .bollyS2{
+    align-items: center;
+    justify-content: center;
+  }
+  .natureImg{
+    
+    margin: 50%;
+  }
+  a.NavLink {
     height: 10px;
     margin: 1px;
     background-color: orange;
     margin-left: 30px;
     margin-right: 30px;
-
   }
 
-  
-  .blog1{
-flex-direction: column;
-  
+  .blog1 {
+    flex-direction: column;
   }
 
-  .blog1 img{
-  width: 200px;
-height: 210px;
+  .blog1 img {
+    width: 200px;
+    height: 210px;
   }
 
-  .blog2 img{
+  .blog2 img {
     width: 100px;
     height: 100px;
     margin-right: 20px;
   }
 
-  .blog3 img{
+  .blog3 img {
     width: 100px;
     height: 100px;
   }
 
-  .mainblog2{
+  .mainblog2 {
     display: flex;
-  
   }
-  .blog2{
-  display: flex;
-  flex-direction:column;
- 
-  margin: 10px;
+  .blog2 {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
   }
 
-  .p1{
+  .p1 {
     margin-top: 50px;
   }
 
-
-  .footer{
+  .footer {
     height: 114px;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1180px){
+@media screen and (min-width: 700px) and (max-width: 1180px) {
+  .p1 .Main .advertisment {
+    margin-top: 100%;
+    height: 550px;
+    width: 350px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
 
-
-
-.p1 .Main .advertisment {
-  margin-top: 100%;
-  height: 550px;
-  width: 350px;
-  border: 1px solid black;
-  margin-bottom: 10px;
-}
-
-.bollyS2 {
-  margin-top: 80px;
-  margin-left:50px;
-  width: 40%;
-}
-
+  .bollyS2 {
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 40%;
+  }
 }
