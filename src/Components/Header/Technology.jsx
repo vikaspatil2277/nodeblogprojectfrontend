@@ -16,15 +16,13 @@ function Technology() {
       <div className='Main'>
         <section className='section1'>
           <h4> Technology</h4>
-
-          <div className='head'></div>
           <div className="allPosts">
             {data.filter((e) => { return e.class === "technology1" }).map((item, index) => (
               <div className="latest1" key={index}>
                 <Link to={`/details/${item.id}`} state={{ item }} ><img src={item.cover} alt="" /></Link>
                 <div>
                   <Link to={`/details/${item.id}`} state={{ item }} ><h4>{item.title}</h4></Link>
-                  <h6>{item.desc.slice(0, 180)}</h6>
+                  <h6>{item.desc.slice(0, 100)}</h6>
                   <h6>{item.category} / {item.date}</h6>
                 </div>
               </div>
@@ -42,7 +40,7 @@ function Technology() {
                 <Link to={`/details/${item.id}`} state={{ item }} ><img src={item.cover} alt="" /></Link>
                 <div>
                   <Link to={`/details/${item.id}`} state={{ item }} ><h4>{item.title}</h4></Link>
-                  <h6>{item.desc.slice(0, 180)}</h6>
+                  <h6>{item.desc.slice(0, 100)}</h6>
                   <h6>{item.category} / {item.date}</h6>
                 </div>
               </div>
@@ -52,7 +50,7 @@ function Technology() {
      
         </section>
       <div className="advertisment">
-            <h4  className='ad'> Advertisement</h4>
+      <img src="https://i.gifer.com/7Hgc.gif" className='giff' alt='add'></img>
           </div>
       </div>
     </div>

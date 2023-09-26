@@ -54,7 +54,7 @@ function Bollywood() {
       </section>
       <div className="advertisment">
         <img src="https://i.gifer.com/7Hgc.gif" className='giff' alt='add'></img>
-        {/* <video src='https://i.gifer.com/7Hgc.mp4'loop repeat ></video> */}
+    
           <h4 className='ad'>
             
           </h4>

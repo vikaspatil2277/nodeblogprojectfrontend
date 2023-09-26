@@ -53,7 +53,7 @@ function Food() {
     </section>
 
     <div className="advertisment">
-        <h4  className='ad'>Advertisement</h4>
+    <img src="https://i.gifer.com/7Hgc.gif" className='giff' alt='add'></img>
       </div>
     </div>
   </div>
