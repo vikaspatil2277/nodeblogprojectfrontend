@@ -35,7 +35,7 @@ function Bollywood() {
       </section>
       <section className='bollyS2'>
         <h4 > Top Posts</h4>
-        <div className='head'></div>
+       
         <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt=""  className='natureImg'/>
         <div className="allTopPosts">
           {data.filter((e) => { return e.class === "Bollywood2"}).map((item,index)=>(

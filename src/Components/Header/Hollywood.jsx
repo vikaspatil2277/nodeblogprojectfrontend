@@ -33,7 +33,6 @@ function Hollywood() {
       </section>
       <section className='bollyS2'>
         <h4 > Top Posts</h4>
-        <div className='head'></div>
         <img src="https://cdn.pixabay.com/photo/2016/11/15/07/09/photo-manipulation-1825450_640.jpg" alt="" className='natureImg' />
         <div className="allTopPosts">
           {data.filter((e) => { return e.class === "hollywood2" }).map((item, index) => (
