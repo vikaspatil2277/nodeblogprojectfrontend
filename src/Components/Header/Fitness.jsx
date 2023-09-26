@@ -16,7 +16,6 @@ function Fitness() {
     <div className='Main'>
       <section className='section1'>
         <h4 > Fitness</h4>
-        <div className='head'></div>
         <div className="allPosts">
           {data.filter((e) => { return e.class === "fitness1" }).map((item, index) => (
             <div className="latest1" key={index}>

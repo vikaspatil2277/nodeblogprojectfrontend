@@ -18,7 +18,6 @@ function Bollywood() {
     <div className='Main'>
       <section className='section1'>
         <h4 > Bollywood</h4>
-        <div className='head'></div>
         <div className="allPosts">
           {data.filter((e) => { return e.class === "Bollywood1" }).map((item, index) => (
             <div className="latest1" key={index}>

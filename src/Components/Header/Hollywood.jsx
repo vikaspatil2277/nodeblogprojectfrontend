@@ -16,14 +16,14 @@ function Hollywood() {
     <div className='Main'>
       <section className='section1'>
         <h4 > Hollywood</h4>
-        <div className='head'></div>
+      
         <div className="allPosts">
           {data.filter((e) => { return e.class === "hollywood1" }).map((item, index) => (
             <div className="latest1" key={index}>
               <Link to={`/details/${item.id}`} state={{ item }} ><img src={item.cover} alt="" /></Link>
               <div>
                 <Link to={`/details/${item.id}`} state={{ item }} ><h4>{item.title}</h4></Link>
-                <h6>{item.desc.slice(0, 180)}</h6>
+                <h6>{item.desc.slice(0, 100)}</h6>
                 <h6>{item.category} / {item.date}</h6>
               </div>
             </div>
@@ -40,7 +40,7 @@ function Hollywood() {
               <Link to={`/details/${item.id}`} state={{ item }} ><img src={item.cover} alt="" /></Link>
               <div>
                 <Link to={`/details/${item.id}`} state={{ item }} ><h4>{item.title}</h4></Link>
-                <h6>{item.desc.slice(0, 180)}</h6>
+                <h6>{item.desc.slice(0, 100)}</h6>
                 <h6>{item.category} / {item.date}</h6>
               </div>
             </div>

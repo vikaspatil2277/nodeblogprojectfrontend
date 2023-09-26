@@ -17,7 +17,6 @@ function Food() {
     <div className='Main'>
     <section className='section1'>
       <h4 > Food</h4>
-      <div className='head'></div>
       <div className="allPosts">
         {data.filter((e) => { return e.class === "food1" }).map((item, index) => (
           <div className="latest1" key={index}>
@@ -34,7 +33,7 @@ function Food() {
     </section>
     <section className='bollyS2'>
       <h4 > Top Posts</h4>
-      <div className='head'></div>
+    
       <img src="https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg" alt="" className='natureImg' />
       <div className="allTopPosts">
         {data.filter((e) => { return e.class === "food2" }).map((item, index) => (
