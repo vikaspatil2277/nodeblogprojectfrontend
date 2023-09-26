@@ -378,17 +378,24 @@
 }
 
 .Main .advertisment {
+
   position: absolute;
   height: 600px;
   width: 30%;
   border: 1px solid black;
-    opacity: 1; 
-    margin: auto;
-    background: rgba(255,255,255,0.8);
   right: 50px;
   bottom: 10px;
   z-index: 4;
+  opacity: 1; 
 }
+
+.giff{
+  height: 600px;
+  width: 100%;
+
+}
+
+
 .ad {
   margin-top: 200px;
   margin-left: 100px;
@@ -487,5 +494,11 @@
     margin-top: 80px;
     margin-left: 50px;
     width: 40%;
+  }
+
+  .giff{
+    height: 545px;
+    width: 100%;
+  
   }
 }
