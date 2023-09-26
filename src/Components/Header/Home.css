@@ -382,9 +382,9 @@
   height: 600px;
   width: 30%;
   border: 1px solid black;
-  /* margin-left: -400px; */
-  /* margin-top:89%; */
-  /* margin-bottom: 20px; */
+    opacity: 1; 
+    margin: auto;
+    background: rgba(255,255,255,0.8);
   right: 50px;
   bottom: 10px;
   z-index: 4;
