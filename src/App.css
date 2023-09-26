@@ -99,6 +99,11 @@ a {
     display: flex;
     flex-direction: column;
     display: none;
+    width: 100%;
+  }
+  .main-page{
+    width: 106%;
+  
   }
   .NavLink {
     background-color: rgb(244, 241, 235);
@@ -262,6 +267,7 @@ a {
   }
   .Main .section1 .allPosts {
     height: auto;
+    margin-left: 10px;
     width: 350px;
   }
   .Main .section1 .allPosts img {
@@ -269,7 +275,19 @@ a {
     width: 150px;
     margin-right: 30px;
   }
-  .Main .section1 .allPosts .latest1 h6 {
+  .Main .section1 .allPosts .latest1 h4{
+    width: 180px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .Main .section1 .allPosts .latest1 h6{
+    width: 180px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Main .section1 .allPosts .latest1{
+    width: 180px;
     font-size: 14px;
     font-weight: 600;
   }
@@ -278,8 +296,9 @@ a {
     margin-left: 15px;
   }
   .p1 .Main .bollyS2 .natureImg {
-    height: 200px;
-    width: 345px;
+    height:180px;
+    width: 300px;
+    margin-left: 10px;
   }
   .p1 .Main .bollyS2 .latest2 img {
     height: 100px;
@@ -293,16 +312,19 @@ a {
   .p1 .Main .bollyS2 .latest2 {
     display: flex;
     height: auto;
-    width: 350px;
-    margin: 20px 0px;
+    width:200px;
+    margin-left: -20px;
     padding-bottom: 10px;
     border-bottom: 1px solid;
   }
   .p1 .Main .bollyS2 .latest2 h4 {
+    width:200px;
+
     font-size: 19px;
     margin-bottom: 10px;
   }
   .p1 .Main .bollyS2 .latest2 h6 {
+    
     font-size: 16px;
     font-weight: 500;
   }
@@ -321,6 +343,7 @@ a {
     height: 5px;
     color: black;
   }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1180px){

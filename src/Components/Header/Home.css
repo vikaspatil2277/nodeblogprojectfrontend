@@ -399,6 +399,8 @@
 }
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
+  
+  
   .Main .advertisment {
     display: none;
   }
@@ -406,22 +408,23 @@
     display: flex;
     margin-top: 5px;
   }
-.allTopPosts{
-  align-items: center;
-  margin-left: 50px;
-}
+  .allTopPosts {
+    align-items: center;
+    margin-left: 50px;
+  }
   .links {
-    margin-top: 52px;
+    margin-top: 54px;
     background-color: white;
   }
-  .bollyS2{
+  .bollyS2 {
     align-items: center;
     justify-content: center;
   }
-  .natureImg{
-    
+  .natureImg {
     margin: 50%;
   }
+  
+
   a.NavLink {
     height: 10px;
     margin: 1px;
@@ -462,10 +465,12 @@
 
   .p1 {
     margin-top: 50px;
+    width: 100%;
   }
 
   .footer {
     height: 114px;
+    width: 100%;
   }
 }
 

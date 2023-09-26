@@ -53,7 +53,7 @@ function Details() {
               <AiTwotoneLike className='likeicon' />
               <h4>Like</h4>
               <BiShareAlt className='shareIcon' />
-              <h4>Share</h4>
+              <h4 className='detail-share'>Share</h4>
             </div>
             <hr />
             <div className='Writter'>
@@ -71,14 +71,14 @@ function Details() {
             {data.map((item, index) => (
               <div className="detailDesc" key={index}>
                 <Link to={`/details/${item.id}`} state={{ item }}
-                  key={index}> <img src={item.cover} alt="" /></Link>
+                  > <img src={item.cover} alt="" /></Link>
                 <Link to={`/details/${item.id}`} state={{ item }}
-                  key={index}><h4>{item.title}</h4></Link>
+                 ><h4>{item.title}</h4></Link>
                 <div className='footer2'>
                   <img src="https://imgs.search.brave.com/fheKHA24ms7oYoRYaBxDV2piKTh8oQQc-2qtESQYCI0/rs:fit:800:930:1/g:ce/aHR0cHM6Ly9wNy5o/aWNsaXBhcnQuY29t/L3ByZXZpZXcvNy82/MTgvNTA1L2F2YXRh/ci1pY29uLWZhc2hp/b24tbWVuLXZlY3Rv/ci1hdmF0YXIuanBn" alt="" className='profileimg' />
                   <div>
                     <h5>vikas patil</h5>
-                    <h7>june 22, 2023</h7>
+                    <h6>june 22, 2023</h6>
                   </div>
                 </div>
 
