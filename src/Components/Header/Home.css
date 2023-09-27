@@ -132,7 +132,7 @@
 
 .blog3 img {
   height: 250px;
-  width: 87%;
+  width: 86%;
 }
 
 /* img{
@@ -496,9 +496,57 @@
     width: 40%;
   }
 
+  .section2{
+    margin-bottom: -240px;
+  }
+
   .giff{
     height: 545px;
     width: 100%;
   
   }
+
+  .section2 .article{
+    width:80%;
+    padding:20px;
+  }
+
+  .section2 .advertisement{
+    margin-top:-50px;
+    height: 400px;
+    width: 60%;
+    border: 1px solid;
+  }
+
+  .section2 .advertisement .adt{
+    margin-top: 200px;
+    margin-left:50px;
+  }
+  .randomImage{
+    position: relative;
+  }
+
+  .randomImage img{
+    height: 300px;
+    width: 70%;
+    margin-left:50px;
+    margin-top: 50px;
+    
+  }
+
+  .topPosts {
+    position: relative;
+    top:-525px;
+    margin-left: 50px;
+    width: 80%; 
+  
+ }
+  
+ .article img {
+  height: 90%;
+  width: 90%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 }
