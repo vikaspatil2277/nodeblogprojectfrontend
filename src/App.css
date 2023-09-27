@@ -6,10 +6,18 @@
   /* box-sizing: border-box; */
 }
 
+.main-page{
+  margin-top: -50px;
+}
+
 
 .homecontainer {
   display: flex;
   justify-content: center;
+}
+
+.app{
+  margin-top: -40px;
 }
 
 h3 {
@@ -42,14 +50,14 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
-  height: 80px;
+  height: 100px;
   width: 100%;
 
   background-color: orange;
 }
 
 .NavLink {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 #menu-bar {
