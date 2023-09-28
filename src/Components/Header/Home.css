@@ -5,9 +5,9 @@
 .homeconatiner {
   width: 100%;
 }
-.blog {
+/* .blog {
   margin: 50px 0;
-}
+} */
 
 .mainblog {
   display: flex;
@@ -18,11 +18,11 @@
   display: flex;
   flex-direction: row;
   height: 500px;
-  width: 800px;
+  width: 100%;
   margin: 10px;
 }
 .blog1 img {
-  height: 550px;
+  height: 500px;
   width: 80%;
   margin-left: 10px;
 }
@@ -40,15 +40,12 @@
 }
 
 .blog2 img {
-  height: 290px;
+  height: 240px;
   width: 89.5%;
   margin-left: -10px;
 }
 
-.blog3 img {
-  height: 250px;
-  width: 86%;
-}
+
 
 /* img{
   height: 700px;
@@ -64,9 +61,7 @@
   transform: translateY(-5px);
 }
 .grid3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+ display: flex;
 }
 .blog img {
   width: 300px;
@@ -74,7 +69,7 @@
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 .description {
   font-size: 15px;
@@ -102,12 +97,7 @@
   display: flex;
   align-items: center;
 }
-.head {
-  border-bottom: 1px solid #f08080;
-  width: 90px;
-  height: 3px;
-  margin-bottom: 20px;
-}
+
 .blog .date {
   display: flex;
   align-items: center;
@@ -336,6 +326,7 @@
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
   
+
   
   .Main .advertisment {
     display: none;
@@ -411,13 +402,90 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 1180px) {
-  .p1 .Main .advertisment {
-    margin-top: 100%;
-    height: 550px;
-    width: 350px;
-    border: 1px solid black;
-    margin-bottom: 10px;
+
+
+  h3 {
+    position: relative;
+    top: 85px;
+    left: 346px;
+    width: 39px;
+    height: 60px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    text-align: left;
+    font: normal normal medium 32px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
   }
+  p {
+    position: relative;
+    top: 0px;
+    left: 382px;
+    width: 190px;
+    height: 87px;
+    text-align: left;
+    font-size: 52px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 700;
+  }
+  .mainblog {
+    display: flex;
+    width: 100%;
+    margin-top: -40px;
+  }
+  
+  .blog1 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+    margin-left: 40px;
+  }
+  .blog1 img {
+    height: 400px;
+    width: 80%;
+    margin-left: 10px;
+  }
+  
+  .mainblog2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 0px;
+  }
+  .blog2 {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px;
+  }
+  
+  .blog2 img {
+    height: 190px;
+    width: 100%;
+    margin-left: -40px;
+  }
+
+  .blog{
+    width: 95%;
+  }
+  .grid3{
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .boxItem{
+    width: 35%;
+    margin: 10px;
+  }
+  .boxItem img{
+    width: 60%;
+    height: 60%;
+  }
+
+  
 
   .bollyS2 {
     margin-top: 80px;
@@ -426,7 +494,7 @@
   }
 
   .section2{
-    margin-bottom: -240px;
+    margin-bottom: -10px;
   }
 
   .giff{
@@ -437,22 +505,12 @@
 
   .section2 .article{
     width:80%;
-    padding:20px;
+    padding:5px;
   }
 
-  .section2 .advertisement{
-    margin-top:-50px;
-    height: 400px;
-    width: 60%;
-    border: 1px solid;
-  }
-
-  .section2 .advertisement .adt{
-    margin-top: 200px;
-    margin-left:50px;
-  }
   .randomImage{
     position: relative;
+    height: 300px;
   }
 
   .randomImage img{
@@ -463,9 +521,21 @@
     
   }
 
+  .advertisement {
+    margin-left: 80px;
+    height: 480px;
+    width: 70%;
+    border: 1px solid;
+    margin-top: -10px;
+  }
+  .adt {
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+
   .topPosts {
     position: relative;
-    top:-525px;
+    top:-580px;
     margin-left: 50px;
     width: 80%; 
   
@@ -477,5 +547,151 @@
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
+.section3{
+  margin-top: -50px;
+}
+
+.Stories{
+  
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: -54px;
+    width: 108%;
+    padding-top: 4px;
+
+ 
+}
+
+.sPost{
+  margin: 10px;
+  width: 130%;
+
+
+}
+
+
+/* bollywoodpage css */
+
+
+.Main {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.section1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50%;
+}
+.allPosts {
+  height: auto;
+  width: 80%;
+}
+.allPosts img {
+  height: 200px;
+  width: 300px;
+  margin-right: 30px;
+}
+.latest1 {
+  display: flex;
+  margin: 30px 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+  width: 130%;
+}
+
+.latest1 img{
+  width: 90%;
+}
+.latest1:last-child {
+  border-bottom: none;
+}
+
+.latest1 h4 {
+  font-size: 18px;
+}
+.latest1 h6 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.bollyS2 {
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 35%;
+}
+.natureImg {
+  height: 200px;
+  width: 90%;
+  margin-left: -20px;
+}
+
+.allTopPosts {
+  margin-left: 20px;
+  width: 80%;
+}
+.latest2 {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: 20px 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+.latest2:last-child {
+  border-bottom: none;
+}
+.latest2 img {
+  height: 150px;
+  width:90%;
+  margin-right: 5px;
+}
+.latest2 h4 {
+  font-size: 14px;
+}
+.latest2 h6 {
+  font-size: 9px;
+  font-weight: 300;
+}
+
+/* .Main .advertisment {
+
+  position: absolute;
+  height: 500px;
+  width: 80%;
+  border: 1px solid black;
+  right: 50px;
+  bottom: 10px;
+  z-index: 4;
+  opacity: 1; 
+} */
+
+
+.p1 .Main .advertisment {
+  margin-top: 100%;
+  margin-right:-3%;
+  height: 600px;
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+
+.giff{
+  height: 600px;
+  width: 100%;
+
+}
+
+
+
+
+/* details page css */
+
+
+
+
+
+
 
 }

@@ -53,7 +53,7 @@ const HomeCard = () => {
               })
               .map((item, index) => (
                 <div key={index}>
-                  <div className="homeimg1">
+                  <div>
                     <Link to={"/technology"} state={{ item }}>
                       <img src={item.cover} alt="" />
                     </Link>
@@ -64,41 +64,41 @@ const HomeCard = () => {
         </section>
 
         <div className="mainblog2">
-          <section className="blog2">
-            <div>
+          <div className="blog2">
+            
               {home
                 .filter((data) => {
                   return data.category === "Bollywood";
                 })
                 .map((item, index) => (
                   <div key={index}>
-                    <div className="homeimg2">
+                    <div>
                       <Link to={"/bollywood"} state={{ item }}>
                         <img src={item.cover} alt="" />
                       </Link>
                     </div>
                   </div>
                 ))}
-            </div>
-          </section>
+          
+          </div>
 
-          <section className="blog3">
-            <div>
+          <div className="blog2">
+            
               {home
                 .filter((data) => {
                   return data.category === "Hollywood";
                 })
                 .map((item, index) => (
                   <div key={index}>
-                    <div className="homeimg3">
+                    <div>
                       <Link to={"/hollywood"} state={{ item }}>
                         <img src={item.cover} alt="" />
                       </Link>
                     </div>
                   </div>
                 ))}
-            </div>
-          </section>
+            
+          </div>
         </div>
       </div>
 

@@ -114,8 +114,9 @@
 
   .right {
     width: 650px;
-    /* margin-left:100px; */
+    margin-left:38px;
     margin-bottom: 160px;
+    margin-top: -200px;
   }
 
   .detailsImg {
@@ -168,11 +169,14 @@
   }
   .detailDesc {
     height: 300px;
-    width: 300px;
+    width: 30%;
+    margin-top: -10%;
+    
+    margin-bottom: 150px;
   }
   .detailDesc img {
     height: 200px;
-    width: 300px;
+    width: 90%;
     margin-bottom: 20px;
   }
   .detailDesc .profileimg {
@@ -190,7 +194,7 @@
   }
 
   .footer {
-    margin-top: 10px;
+    margin-top: 40px;
     height: 180px;
    
   }

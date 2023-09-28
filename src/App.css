@@ -391,21 +391,9 @@ a {
     flex-direction: column;
   }
 
-  .blog1 img {
-    width: 200px;
-    height: 210px;
-  }
+ 
 
-  .blog2 img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-  }
-
-  .blog3 img {
-    width: 375px;
-    height: 100px;
-  }
+  
 
   .mainblog2 {
     display: flex;
