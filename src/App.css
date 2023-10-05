@@ -67,6 +67,7 @@ p {
   font-size: 32px;
   cursor: pointer;
   display: none;
+  margin-top: -30px;
 }
 
 .footer {
@@ -101,13 +102,18 @@ a {
   .label {
     display: initial;
     margin-left: 320px;
-    margin-top: -30px;
+    margin-top: 50px;
+  }
+  .label svg{
+   
+    margin-top: -50px;
   }
   .links {
     display: flex;
     flex-direction: column;
     display: none;
     width: 100%;
+    margin-bottom: 140px;
   }
   .main-page{
     width: 106%;
@@ -132,22 +138,24 @@ a {
   .App h3 {
     position: relative;
     top: 80px;
-    left: 50px;
+    left: 100px;
   }
 
   .App p {
     position: relative;
     top: 0px;
-    left: 70px;
+    left: 120px;
   }
   .category .overlay p {
     visibility: hidden;
   }
+
+  
   .latestblog {
-    margin-top: -300px;
+    margin-top: 10px;
   }
   .blog .grid3 {
-    margin: 10px 0;
+    margin: 10px;
     display: grid;
     grid-template-columns: 200px;
   }
@@ -157,13 +165,14 @@ a {
   }
   .blog .boxItem img {
     margin-top: 40px;
+    margin-left: 30px;
   }
   .blog .boxItem {
     display: block;
     width: 340px;
   }
   .boxItem .description {
-    margin-left: -60px;
+    margin-left: -120px;
     font-weight: 600;
   }
   .articles .section2 {
@@ -189,14 +198,14 @@ a {
     font-weight: 700;
   }
   .articles .advertisement {
-    margin: 20px 5px 30px 14px;
+    margin: 20px 5px 30px 27px;
     height: 750px;
     width: 335px;
     
   }
  
   .articles .randomImage img {
-    margin-left: 14px;
+    margin-left: 26px;
     height: 300px;
     width: 340px;
     margin-top: 10px;
@@ -205,19 +214,20 @@ a {
   .articles .topPosts {
     position: relative;
     top: -40px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .section3 .Stories {
     display: grid;
     grid-template-columns: 200px;
-    height: 1200px;
-    margin: 00px 0px 30px 0px;
+    height: 920px;
+    width: 100%;
+    margin-left: 0px;
     justify-content: space-between;
     padding: 20px;
   }
   .sPost {
     height: 100px;
-    width: 300px;
+    width: 350px;
     padding-left: 30px;
     margin-top: 20px;
   }
@@ -226,6 +236,8 @@ a {
     margin-bottom: 20px;
     font-weight: 700;
     margin-top: 0px;
+    width: 350px;
+    margin-left: -20px;
   }
   .section3 .Stories .sPost h2 :nth-child(2) {
     margin-top: 20px;
@@ -233,6 +245,8 @@ a {
   .section3 .Stories .sPost h6 {
     font-size: 14px;
     font-weight: 400;
+    width: 350px;
+    margin-left: -20px;
   }
   .singlePost .container .right {
     width: 350px;
@@ -422,7 +436,7 @@ a {
 
  
   hr {
-    margin-top: 70px;
+    margin-top: 20px;
     height: 5px;
     color: black;
   }

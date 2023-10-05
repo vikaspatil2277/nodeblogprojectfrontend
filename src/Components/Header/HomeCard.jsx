@@ -140,7 +140,7 @@ const HomeCard = () => {
             ))}
           </div>
         </div>
-        <section className="articles">
+        <div className="articles">
           <h4> Latest Articles</h4>
           <div className="head"></div>
           <div className="section2">
@@ -195,10 +195,12 @@ const HomeCard = () => {
               ))}
             </div>
           </div>
-        </section>
-        <section className="section3">
+        </div>
+
+        
+      </div>
+      <div className="section3">
           <h4> latest Stories</h4>
-          <div className="head"></div>
           <div className="Stories">
             {latestStories.map((item, index) => (
               <div className="sPost" key={index}>
@@ -208,8 +210,7 @@ const HomeCard = () => {
               </div>
             ))}
           </div>
-        </section>
-      </div>
+        </div>
     </div>
   );
 };
